@@ -84,3 +84,5 @@ production:
   database: sample1234_production
   username: sample1234
   password: <%= ENV["SAMPLE1234_DATABASE_PASSWORD"] %>
+  adapter: postgresql
+  url: <%= ENV['DATABASE_URL'] %>
